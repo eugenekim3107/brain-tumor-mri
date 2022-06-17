@@ -1,4 +1,4 @@
-from glob import glob
+from torch.utils.data import Dataset, DataLoader
 import pickle
 import numpy as np
 
@@ -6,8 +6,8 @@ ROOT_PATH = "./"
 
 cities = ["austin", "miami", "pittsburgh", "dearborn", "washington-dc",
           "palo-alto"]
-splits = ["train", "val", "test"]
 
+splits = ["train", "val", "test"]
 
 def get_city_trajectories(city="palo-alto", split="train", normalized=False):
     outputs = None
@@ -22,7 +22,7 @@ def get_city_trajectories(city="palo-alto", split="train", normalized=False):
         outputs = pickle.load(open(f_out, "rb"))
         outputs = np.asarray(outputs)[:int(n * 0.8)]
 
-    elif split == 'val':
+    elif split == "val":
         f_in = ROOT_PATH + 'train' + "/" + city + "_inputs"
         inputs = pickle.load(open(f_in, "rb"))
         n = len(inputs)
@@ -63,9 +63,8 @@ class ArgoverseDataset(Dataset):
 
         return data
 
-
 # intialize a dataset
-city = 'palo-alto' # choose city
+city = 'palo-alto' # choose desired city
 split = 'train' # choose either train, val, test
 train_dataset = ArgoverseDataset(city=city, split=split)
-val_dataset = ArgoverseDataset(city=city, split="val")
+val_dataset = ArgoverseDataset(city)

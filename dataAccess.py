@@ -1,8 +1,11 @@
+import torch
+from torch.utils.data import Dataset, DataLoader
+import os, os.path
 from glob import glob
 import pickle
 import numpy as np
 
-ROOT_PATH = "./"
+ROOT_PATH = "argo2/"
 
 cities = ["austin", "miami", "pittsburgh", "dearborn", "washington-dc",
           "palo-alto"]

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70e57522-ec00-4778-aecf-148c03a90680" name="Default Changelist" comment="create data exploration file" />
+    <list default="true" id="70e57522-ec00-4778-aecf-148c03a90680" name="Default Changelist" comment="added to the data exploration file" />
     <list id="9e85e8eb-1b1e-4318-8d0c-9e5bcf2ef8b9" name="Revert &quot;files to access data&quot;" comment="Revert &quot;files to access data&quot;&#10;&#10;This reverts commit 1b116c6f" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655492204208</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added to the data exploration file">
+      <created>1655843909782</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655843909782</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +185,7 @@
     <MESSAGE value="files to access data" />
     <MESSAGE value="deleted testing file" />
     <MESSAGE value="create data exploration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="create data exploration file" />
+    <MESSAGE value="added to the data exploration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to the data exploration file" />
   </component>
 </project>

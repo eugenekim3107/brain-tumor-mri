@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e57522-ec00-4778-aecf-148c03a90680" name="Default Changelist" comment="added to the data exploration file">
-      <change afterPath="$PROJECT_DIR$/dataVisuals/cityStreets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/dataExploration-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/dataExploration-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataExploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataExploration.ipynb" afterDir="false" />
     </list>
     <list id="9e85e8eb-1b1e-4318-8d0c-9e5bcf2ef8b9" name="Revert &quot;files to access data&quot;" comment="Revert &quot;files to access data&quot;&#10;&#10;This reverts commit 1b116c6f" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataVisuals" />
       <recent name="$USER_HOME$/Downloads" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -196,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656018194659</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added to the data exploration file">
+      <created>1656214234169</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656214234170</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
